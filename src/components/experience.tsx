@@ -15,7 +15,6 @@ gsap.registerPlugin(ScrollTrigger);
 type ExperienceCard = {
   review: string;
   title: string;
-  imgPath: string;
   logoPath: string;
   date: string;
   responsibilities: string[];
@@ -94,7 +93,7 @@ const Experience = () => {
               >
                 <div className="xl:w-2/6">
                   <GlowCard card={card} index={index}>
-                    <img src={card.imgPath} alt="exp-img" />
+                    {/* <img src={card.imgPath} alt="exp-img" /> */}
                   </GlowCard>
                 </div>
 

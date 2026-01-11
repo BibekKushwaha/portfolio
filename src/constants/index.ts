@@ -10,7 +10,7 @@ export const expCards = [
   {
     review:
       "Built a production-grade rental management platform with secure authentication, cloud deployment, and a scalable full-stack architecture.",
-    imgPath: "/images/enterprise-rental.png",
+    // imgPath: "/images/enterprise-rental.png",
     logoPath: "/logos/enterprise.png",
     title: "Full-Stack Engineer | Enterprise Rental App",
     date: "2024",
@@ -25,8 +25,8 @@ export const expCards = [
   {
     review:
       "Designed and implemented a scalable microservices-based job platform using event-driven architecture and modern backend technologies.",
-    imgPath: "/images/job-platform.png",
-    logoPath: "/images/kafka.png",
+    // imgPath: "/images/job-platform.png",
+    logoPath: "/logos/jobportal.png",
     title: "Full-Stack Engineer (Backend-Focused) | Job Platform",
     date: "2024",
     responsibilities: [
@@ -41,8 +41,8 @@ export const expCards = [
   {
     review:
       "Built a serverless blogging platform optimized for edge runtimes, focusing on performance, reliability, and cloud-native best practices.",
-    imgPath: "/images/blog-platform.png",
-    logoPath: "/images/cloudflare.png",
+    // imgPath: "/images/blog-platform.png",
+    logoPath: "/logos/cloudflare.png",
     title: "Full-Stack Engineer (Backend-Focused) | Blog Platform",
     date: "2025",
     responsibilities: [
@@ -107,7 +107,7 @@ export const About = [
   {
     id: 3,
     title: "Cloud & Database Engineer",
-    desc: "Designed and implemented cloud infrastructure solutions using AWS, Docker, and Kubernetes, along with database design and optimization using PostgreSQL and MongoDB.",
+    desc: "Designed and implemented cloud infrastructure solutions using AWS, Docker along with database design and optimization using PostgreSQL and MongoDB.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
   },

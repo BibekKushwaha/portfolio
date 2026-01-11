@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
   }, []);
 
   return (
-    <div id="projects" ref={sectionRef}className="pt-4 md:pt6">
+    <div id="projects" ref={sectionRef} className="pt-4 md:pt-6">
       <TitleHeader 
           title="Projects"
           sub="A showcase of my recent works and collaborations"
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
             <div className="image-wrapper">
             <Link href="https://github.com/BibekKushwaha/enterprise-rental-app" target="_blank" >
 
-              <img src="/realstate.png" alt="Ryde App Interface" />
+              <img src="/realstate.png" alt="Ryde App Interface" className="object-fill"/>
               </Link>
             </div>
             <div className="text-content">

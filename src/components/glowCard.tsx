@@ -6,7 +6,6 @@ import { useRef, ReactNode, MouseEvent } from "react";
 
 type CardData = {
   review: string;
-  imgPath: string;
   logoPath: string;
   title: string;
   date: string;
