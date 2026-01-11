@@ -22,11 +22,11 @@ const TechStack = () => {
             "
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-4 md:p-6 lg:p-10 gap-3 transition-transform duration-300 group-hover:-translate-y-0.5">
-              <img
+              {/* <img
                 src={card.thumbnail}
                 alt={card.title}
                 className="lg:w-32 md:w-20 w-16"
-              />
+              /> */}
 
               <div className="lg:ms-5">
                 <h2 className="text-start text-xl md:text-2xl font-bold">
