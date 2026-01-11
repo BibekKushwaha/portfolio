@@ -42,7 +42,7 @@ export const expCards = [
     review:
       "Built a serverless blogging platform optimized for edge runtimes, focusing on performance, reliability, and cloud-native best practices.",
     // imgPath: "/images/blog-platform.png",
-    logoPath: "/logos/cloudflare.png",
+    logoPath: "/logos/blog.png",
     title: "Full-Stack Engineer (Backend-Focused) | Blog Platform",
     date: "2025",
     responsibilities: [
