@@ -14,9 +14,73 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bibekkumarmahato.dev";
+
 export const metadata: Metadata = {
-  title: "Bibek Kumar Mahato - Full Stack Developer",
-  description: "Portfolio of Bibek Kumar Mahato, a skilled Full Stack Developer specializing in building dynamic and responsive web applications using modern technologies.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Bibek Kumar Mahato - Full Stack Developer",
+    template: "%s | Bibek Kumar Mahato",
+  },
+  description:
+    "Portfolio of Bibek Kumar Mahato, a skilled Full Stack Developer specializing in building dynamic and responsive web applications using React, Next.js, Node.js, and modern technologies.",
+  keywords: [
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Node.js Developer",
+    "TypeScript",
+    "Web Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Bibek Kumar Mahato",
+    "Portfolio",
+  ],
+  authors: [{ name: "Bibek Kumar Mahato" }],
+  creator: "Bibek Kumar Mahato",
+  publisher: "Bibek Kumar Mahato",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName: "Bibek Kumar Mahato Portfolio",
+    title: "Bibek Kumar Mahato - Full Stack Developer",
+    description:
+      "Portfolio of Bibek Kumar Mahato, a skilled Full Stack Developer specializing in building dynamic and responsive web applications using React, Next.js, Node.js, and modern technologies.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Bibek Kumar Mahato - Full Stack Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bibek Kumar Mahato - Full Stack Developer",
+    description:
+      "Portfolio of Bibek Kumar Mahato, a skilled Full Stack Developer specializing in building dynamic and responsive web applications.",
+    images: ["/og-image.png"],
+    creator: "@bibekkushwaha",
+  },
+  verification: {
+    google: "your-google-verification-code",
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({
