@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { RESUME_URL } from "@/constants";
 
 export default function Hero() {
   const router = useRouter();
@@ -107,7 +108,7 @@ export default function Hero() {
               </button>
 
               <Link
-                href="/resume.pdf"
+                href={RESUME_URL}
                 target="_blank"
                 className="inline-flex items-center gap-2
                   rounded-md bg-indigo-600 px-7 py-3

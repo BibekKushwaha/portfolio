@@ -2,6 +2,7 @@ import { describe, it, expect, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import Navbar from '@/components/navbar'
+import { RESUME_URL } from '@/constants'
 
 // Mock next-themes
 vi.mock('next-themes', () => ({
@@ -32,7 +33,7 @@ describe('Navbar', () => {
     render(<Navbar />)
     const resumeLink = screen.getByRole('link', { name: /resume/i })
     expect(resumeLink).toBeInTheDocument()
-    expect(resumeLink).toHaveAttribute('href', '/resume.pdf')
+    expect(resumeLink).toHaveAttribute('href', RESUME_URL)
     expect(resumeLink).toHaveAttribute('target', '_blank')
   })
 

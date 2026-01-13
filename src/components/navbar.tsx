@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { ModeToggle } from "./toggletmode";
+import { RESUME_URL } from "@/constants";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -81,7 +82,7 @@ export default function Navbar() {
         {/* Actions */}
         <div className="hidden items-center gap-3 md:flex">
           <Link
-            href="/resume.pdf"
+            href={RESUME_URL}
             target="_blank"
             className="rounded-full bg-primary px-6 py-2 text-sm font-semibold text-primary-foreground shadow transition hover:shadow-lg hover:scale-[1.03]"
           >
@@ -117,7 +118,7 @@ export default function Navbar() {
             ))}
 
             <Link
-              href="/resume.pdf"
+              href={RESUME_URL}
               target="_blank"
               className="rounded-full bg-primary px-5 py-2 text-center text-sm font-semibold text-primary-foreground"
             >

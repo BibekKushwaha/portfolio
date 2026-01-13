@@ -6,12 +6,17 @@
 
 
 
+// Cache-busting for resume PDF - increment this version when resume is updated
+export const RESUME_VERSION = "1";
+export const RESUME_URL = `/resume.pdf?v=${RESUME_VERSION}`;
+
+
 export const expCards = [
   {
     review:
       "Built a production-grade rental management platform with secure authentication, cloud deployment, and a scalable full-stack architecture.",
     // imgPath: "/images/enterprise-rental.png",
-    logoPath: "/logos/enterprise.png",
+    logoPath: "/logos/Enterprise.png",
     title: "Full-Stack Engineer | Enterprise Rental App",
     date: "2024",
     responsibilities: [
@@ -42,7 +47,7 @@ export const expCards = [
     review:
       "Built a serverless blogging platform optimized for edge runtimes, focusing on performance, reliability, and cloud-native best practices.",
     // imgPath: "/images/blog-platform.png",
-    logoPath: "/logos/blog.png",
+    logoPath: "/logos/Blog.png",
     title: "Full-Stack Engineer (Backend-Focused) | Blog Platform",
     date: "2025",
     responsibilities: [
