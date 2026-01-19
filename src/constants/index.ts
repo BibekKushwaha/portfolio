@@ -64,33 +64,7 @@ export const expCards = [
 
 
 
-export const companies = [
-  {
-    id: 1,
-    name: "AWS",
-    img: "logos/Amazon.svg.png",
-    nameImg: "/awsName.svg",
-  },
-  {
-    id: 2,
-    name: "Next.js",
-    img: "/next.jpeg",
-    nameImg: "/nextName.svg",
-  },
-  {
-    id: 3,
-    name: "Node.js",
-    img: "/node.svg",
-    nameImg: "/nodeName.svg",
-  },
-  {
-    id: 4,
-    name: "PostgreSQL",
-    img: "/postgres.svg",
-    nameImg: "/postgresName.svg",
-  },
- 
-];
+
 
 
 
