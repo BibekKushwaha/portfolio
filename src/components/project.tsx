@@ -74,12 +74,10 @@ const Projects: React.FC = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Enterprise Rental App
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A comprehensive rental application designed for enterprises to manage their rental properties efficiently. Built with Next.js and Tailwind CSS for a responsive and user-friendly interface, it features robust backend support using Node.js and Postgres database, ensuring seamless data management and scalability.
               </p>
             </div>
           </div>
@@ -90,7 +88,7 @@ const Projects: React.FC = () => {
             <Link href="https://github.com/BibekKushwaha/Job-Portal" target="_blank" >
 
                 <img
-                  src="/project1.jpeg"
+                  src="/project1.png"
                   alt="Job Platform"
                 />
                 </Link>
