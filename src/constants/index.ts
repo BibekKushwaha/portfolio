@@ -12,6 +12,7 @@ export const RESUME_URL = `/resume.pdf?v=${RESUME_VERSION}`;
 
 
 export const expCards = [
+  
   {
     review:
       "Built a production-grade rental management platform with secure authentication, cloud deployment, and a scalable full-stack architecture.",
