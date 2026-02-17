@@ -16,7 +16,7 @@ export const expCards = [
     review:
       "Built a production-grade rental management platform with secure authentication, cloud deployment, and a scalable full-stack architecture.",
     // imgPath: "/images/enterprise-rental.png",
-    logoPath: "/logos/Enterprise.png",
+    logoPath: "/logos/enterprise.png",
     title: "Full-Stack Engineer | Enterprise Rental App",
     date: "2024",
     responsibilities: [
