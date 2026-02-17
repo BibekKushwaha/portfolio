@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import TitleHeader from "./titleHeader";
 import Link from "next/link";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,10 +67,10 @@ const Projects: React.FC = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
+            <div className="image-wrapper" style={{ position: 'relative' }}>
             <Link href="https://github.com/BibekKushwaha/enterprise-rental-app" target="_blank" >
 
-              <img src="/realstate.png" alt="Ryde App Interface" className="object-fill"/>
+              <Image src="/realstate.png" alt="Ryde App Interface" fill objectFit="fill"/>
               </Link>
             </div>
             <div className="text-content">
@@ -84,12 +85,13 @@ const Projects: React.FC = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+              <div className="image-wrapper bg-[#FFEFDB]" style={{ position: 'relative' }}>
             <Link href="https://github.com/BibekKushwaha/Job-Portal" target="_blank" >
 
-                <img
+                <Image
                   src="/project1.png"
                   alt="Job Platform"
+                  fill
                 />
                 </Link>
               </div>
@@ -97,10 +99,10 @@ const Projects: React.FC = () => {
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
+              <div className="image-wrapper bg-[#FFE7EB]" style={{ position: 'relative' }}>
                 <Link href="https://github.com/BibekKushwaha/Blog-hono-" target="_blank" >
 
-                <img src="/blog.png" alt="Blog Platform" />
+                <Image src="/blog.png" alt="Blog Platform" fill />
                 </Link>
               </div>
               <h2>The Blog Platform</h2>
